@@ -12,12 +12,12 @@ Simple Flask web calculator using GET parameters.
 2. Install dependencies:
     ```powershell
     pip install -r requirements.txt
-   
+   ```
 3. Run the application:
     ```powershell
     python appFlask.py
-
+    ```
 4. Example request:
- ```bash
-    http://127.0.0.1:5000/calculate?op=sum&arg1=2&arg2=5
-```
+[`http://127.0.0.1:5000/calculate?op=sum&arg1=2&arg2=5`](http://127.0.0.1:5000/calculate?op=sum&arg1=2&arg2=5)
+
+Supported operations: sum, subtract, multiply, divide
